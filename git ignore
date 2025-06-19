@@ -1,0 +1,33 @@
+# Tableau backup files
+*.twb~
+*.log
+
+# Data files you may not want to push (e.g., sensitive or large files)
+data/raw/*
+data/processed/*
+
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code/IDE specific
+.vscode/
+.idea/
+
+# OS-generated files
+ehthumbs.db
+desktop.ini
+
+# Environment files
+.env
+*.env
+
+# Notebook output
+*.nbconvert.ipynb
